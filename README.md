@@ -12,7 +12,7 @@ terraform init
 
 ## Step 1: Plan Resources
 ```
-terraform plan -var-file="vars/dev-west-2.tfvars"
+terraform plan -var-file="vars/dev-west-2.tfvars" # -out output.tf
 ```
 
 ## Step 2: Apply Resources
